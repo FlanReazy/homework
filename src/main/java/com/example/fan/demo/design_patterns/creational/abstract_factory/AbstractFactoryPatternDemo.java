@@ -49,5 +49,6 @@ public class AbstractFactoryPatternDemo {
 
         // 调用 Blue 的 fill 方法
         color3.fill();
+        System.out.println("fanyuji");
     }
 }
