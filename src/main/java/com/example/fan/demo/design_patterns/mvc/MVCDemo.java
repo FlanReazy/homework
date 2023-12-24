@@ -19,7 +19,7 @@ public class MVCDemo {
         controller.updateView();
 
         // 更新模型数据
-        controller.setStudentName("John");
+        controller.setStudentName(args[0]);
 
         controller.updateView();
     }
